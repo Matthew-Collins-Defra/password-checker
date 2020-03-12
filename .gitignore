@@ -1,0 +1,8 @@
+.config/
+.DS_Store
+.npm/
+.npm-global/
+.standard-v12-cache/
+test-output/
+.vscode
+node_modules
