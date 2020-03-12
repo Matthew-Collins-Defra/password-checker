@@ -1,13 +1,18 @@
 {
   "name": "password-checker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Check a password against the pwnedpasswords.com api",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Matthew Collins <matthew.collins@defra.gov.uk>",
+  "homepage": "https://github.com/Matthew-Collins-Defra/password-checker",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Matthew-Collins-Defra/password-checker.git"
+  },
+  "license": "OGL-UK-3.0",
   "devDependencies": {
     "jest": "^25.1.0",
     "jest-junit": "^10.0.0",
@@ -16,6 +21,11 @@
   "dependencies": {
     "@hapi/joi": "^17.1.0",
     "@hapi/wreck": "^17.0.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "test-output/**"
+    ]
   },
   "standard": {
     "globals": [
